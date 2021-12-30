@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <audio id="player" ontimeupdate="updateProgress()">
+        <source id="source">
+        Audio no soportado.
+    </audio>
+    <main>
+
+        
+
+        <div class="container">
+            <div class="player-container">
+                <h1 class="title">Music Player</h1>
+                <div class="music-player">
+                    <div class="music-image">
+                        <img id="music-img" src="" alt="">
+                    </div>
+                    <div class="music-info">
+                        <p id="music-title" class="title"></p>
+                        <p id="music-author" class="author"></p>
+                        <div class="music-footer">
+                            <div class="music-buttons">
+                                <button onclick="prevMusic()" class="fas fa-backward"></button>
+                                <button id="iconPlay" onclick="togglePlay()" class="fas fa-play"></button>
+                                <button onclick="nextMusic()" class="fas fa-forward"></button>
+                            </div>
+                            <div class="music-time">
+                                <input type="range" id="music_time_bar" value="0" max="100">
+                                <div class="time">
+                                    <p id="music-current-time"></p>
+                                    <p id="music-duration" class="duration"></p>
+                                </div>
+                            </div>
+                            <div class="music-volume">
+                                <input type="range" id="music_volume_bar" value="100" max="100">
+                                <i id="music_volume_icon" class="fas fa-volume-up volume"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="playlist-container">
+                    <div id="playlist-list" class="musics-list">
+                        <div class="music">
+                            <img class="music-img" src="" alt="">
+                            <div class="music-info">
+                                <p class="title"></p>
+                                <p class="author"></p>
+                                <p class="duration"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </main>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
