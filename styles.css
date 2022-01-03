@@ -184,6 +184,7 @@ body {
     width: 80px;
     height: 80px;
     margin: 0 20px;
+    object-fit: cover;
 }
 
 .playlist-container .active p{

@@ -1,16 +1,22 @@
 let musicData = `{
     "musics":[
         {
-            "name": "music name",
-            "author": "music author",
-            "music_path": "mp3 file name",
-            "image_path": "jpg file name"
+            "name": "Arcade Dwellers",
+            "author": "Chime, MDK",
+            "music_path": "Chime & MDK - Arcade Dwellers [NCS Release].mp3",
+            "image_path": "Arcade_Dwellers.jpg"
         },
         {
-            "name": "music name",
-            "author": "music author",
-            "music_path": "mp3 file name",
-            "image_path": "jpg file name"
+            "name": "For Good",
+            "author": "Guy Arthur, Clarx",
+            "music_path": "Guy Arthur & Clarx - For Good (ft. Veronica Bravo) [NCS Release].mp3",
+            "image_path": "For_Good.jpg"
+        },
+        {
+            "name": "Street Lights",
+            "author": "Time To Talk, Azertion, JJD",
+            "music_path": "Time To Talk, Azertion & JJD - Street Lights (Ft. Axollo) [NCS10 Release].mp3",
+            "image_path": "Street_Lights.jpg"
         }
     ]
 }`
