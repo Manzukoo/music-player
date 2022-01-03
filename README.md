@@ -17,7 +17,6 @@ Para subir tu musica lo que debes hacer son los siguientes pasos:
 * music_path
 * image_path
 
-
 ## 📥 Descargar el proyecto
 Lo que deben hacer para descargar este repositorio deben usar este comando de Git<br>
 ```
@@ -30,6 +29,7 @@ cd music-player
 
 ## ⚠️ Aviso ⚠️
 Este proyecto no está adaptado para diferentes resoluciones... Cuando tenga tiempo lo hago. :)
+🎵 Estas musicas que están de prueba fueron sacadas del canal [NoCopyrightSounds](https://www.youtube.com/c/NoCopyrightSounds)
 
 ## Licencia 📄
 Este proyecto está bajo la Licencia **GNU General Public License v3.0** - mira el archivo [LICENSE](https://github.com/Manzukoo/music-player/blob/master/LICENSE) para detalles.
