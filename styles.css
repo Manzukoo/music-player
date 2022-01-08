@@ -14,6 +14,10 @@ body {
 }
 
 .container {
+    margin-top: 8%;
+}
+
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,12 +28,8 @@ body {
     color:rgb(68, 68, 68);
 }
 
-.player-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    margin-top: 8%;
+.player-container h1 {
+    text-align: center;
 }
 
 .music-player {
@@ -39,10 +39,8 @@ body {
     border-radius: 9px;
     box-shadow: 0 18px 15px 5px rgba(0, 0, 0, 0.2);
     position: relative;
-    max-width: 383.86px;
-    max-height: 134px;
-    width: 100%;
-    height: 100%;
+    min-width: 383.86px;
+    min-height: 134px;
 }
 
 .music-image img {
@@ -57,8 +55,7 @@ body {
     flex-direction: column;
     padding-right: 11px;
     margin-top: 10px;
-    max-width: 233px;
-    width: 100%;
+    min-width: 233px;
 }
 
 .music-player .music-info .title {
@@ -143,8 +140,8 @@ body {
 }
 
 .playlist-container {
+    min-width: 500px;
     max-width: 30em;
-    width: 100%;
     height: 20em;
     background-color: rgb(255, 234, 253);
     box-shadow: 0 5px 15px 5px rgba(0, 0, 0, 0.2);
