@@ -28,8 +28,9 @@ cd music-player
 (Quiero decir que en Windows es así, no se como será en otros SO)
 
 ## ⚠️ Aviso ⚠️
-Este proyecto no está adaptado para diferentes resoluciones... Cuando tenga tiempo lo hago. :)
-🎵 Estas musicas que están de prueba fueron sacadas del canal [NoCopyrightSounds](https://www.youtube.com/c/NoCopyrightSounds)
+~~Este proyecto no está adaptado para diferentes resoluciones... Cuando tenga tiempo lo hago.~~
+* Se adaptó la pagina a diferentes resoluciones :)
+* 🎵 Estas musicas que están de prueba fueron sacadas del canal [NoCopyrightSounds](https://www.youtube.com/c/NoCopyrightSounds)
 
 ## Licencia 📄
 Este proyecto está bajo la Licencia **GNU General Public License v3.0** - mira el archivo [LICENSE](https://github.com/Manzukoo/music-player/blob/master/LICENSE) para detalles.
